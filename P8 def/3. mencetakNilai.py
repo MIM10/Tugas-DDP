@@ -2,6 +2,6 @@
 # ex : ganjil (100)
 
 def ganjil(batas):
-    for i in range(1, batas + 1, 2):
-        print(i)
+    for batas in range(1, batas + 1, 2):
+        print(batas)
 ganjil(100)
